@@ -1,0 +1,91 @@
+carousel html
+<div id="carousel" class="carousel">
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+    <div class="carousel-track">
+        <div class="carousel-item" onclick="selectVehicle('Sedan')">
+            <img src="path_to_sedan_icon.jpg" alt="Sedan">
+            <span>Sedan</span>
+        </div>
+        <div class="carousel-item" onclick="selectVehicle('Coupe')">
+            <img src="path_to_coupe_icon.jpg" alt="Coupe">
+            <span>Coupe</span>
+        </div>
+        <div class="carousel-item" onclick="selectVehicle('Mid-Size SUV')">
+            <img src="path_to_suv_icon.jpg" alt="Mid-Size SUV">
+            <span>Mid-Size SUV</span>
+        </div>
+       
+    </div>
+</div>
+
+the service selector
+
+<div class="button-group" role="radiogroup">
+  <button type="button" role="radio" class="button-option selected" aria-checked="true">Full Service</button>
+  <button type="button" role="radio" class="button-option" aria-checked="false">Interior Only</button>
+  <button type="button" role="radio" class="button-option" aria-checked="false">Exterior Only</button>
+</div>
+
+price box
+
+<div id="price-box" class="price-box">
+  <p class="one-time">(One Time)</p>
+  <h2 id="service-name" class="service-name">FULL SERVICE DETAIL</h2>
+  <div id="service-price" class="service-price">$250</div>
+  <p id="vehicle-name" class="vehicle-name">[Sedan]</p>
+  <button class="book-now">BOOK NOW</button>
+  
+</div>
+
+monthly subscription price box
+
+<div class="pricing-content-wrapper">
+  <div class="discount-wrapper">
+    <div class="discount-text">SAVE $50</div>
+  </div>
+  <div class="monthly-heading-wrapper">
+    <div class="pricing-heading">MONTHLY</div>
+    <div class="pricing-tagline">[Best Value]</div>
+  </div>
+  <div class="pricing-content">
+    <div class="service-type">Full Service Detail</div>
+    <div class="price-wrapper">
+      <div class="price">$275</div>
+      <div class="original-price">$325</div>
+    </div>
+    <div class="vehicle-type-wrapper">
+      <div class="vehicle-type">[Minivan]</div>
+    </div>
+    <div class="pricing-description-wrapper">
+      <div class="pricing-content-description">Set it &amp; forget it. Never live without that new car feeling.</div>
+    </div>
+    <button class="book-now">Book Now</button>
+  </div>
+</div>
+
+bimonthly subscription price box
+
+<div class="pricing-content-wrapper">
+  <div class="discount-wrapper">
+    <div class="discount-text">SAVE $35</div>
+  </div>
+  <div class="bimonthly-heading-wrapper">
+    <div class="pricing-heading">BiMONTHLY</div>
+    <div class="pricing-tagline">[MOST POPULAR]</div>
+  </div>
+  <div class="pricing-content">
+    <div class="service-type">Full Service Detail</div>
+    <div class="price-wrapper">
+      <div class="price">$290</div>
+      <div class="original-price">$325</div>
+    </div>
+    <div class="vehicle-type-wrapper">
+      <div class="vehicle-type">[Minivan]</div>
+    </div>
+    <div class="pricing-description-wrapper">
+      <div class="pricing-content-description">Set it &amp; forget it. Give your vehicle a refresh every other month.</div>
+    </div>
+    <button class="book-now inverted">Book Now</button>
+  </div>
+</div>
